@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0a0b10">
+  <meta name="description" content="A little digital love letter for Babe — our first monthsary.">
+  <title>For Babe — Our First Month ❤️</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+
+  <!-- The official audio is embedded from YouTube. Browsers may block audible autoplay;
+       the floating music button below is the fallback. -->
+  <div class="music-shell" aria-hidden="true">
+    <iframe
+      id="musicFrame"
+      src="https://www.youtube.com/embed/mZOf5_rIfK4?autoplay=1&loop=1&playlist=mZOf5_rIfK4&controls=0&rel=0&playsinline=1"
+      title="Rearrange My World by Daniel Caesar & Rex Orange County"
+      allow="autoplay; encrypted-media"
+      tabindex="-1">
+    </iframe>
+  </div>
+
+  <button class="music-button" id="musicButton" type="button" aria-label="Play our song">
+    <span class="music-icon">♫</span>
+    <span id="musicText">Our song</span>
+  </button>
+
+  <main>
+    <section class="hero section">
+      <div class="hero-inner reveal">
+        <div class="eyebrow"><span class="pulse-dot"></span> A little something for Babe</div>
+        <h1>Happy <em>first</em><br>monthsary, Babe.</h1>
+        <p class="hero-sub">I made you a little piece of the story that started with one very unexpected question.</p>
+        <button class="start-button" id="startButton">
+          <span>Open our story</span>
+          <span class="arrow">↓</span>
+        </button>
+        <div class="date-chip">July 17, 2026 → August 17, 2026</div>
+      </div>
+    </section>
+
+    <section class="story section" id="story">
+      <div class="section-label reveal">01 / HOW IT STARTED</div>
+      <div class="story-grid">
+        <div class="story-copy reveal">
+          <h2>“So, nagtatattoo ka?”</h2>
+          <p>That was the question that started all of this.</p>
+          <p>We met on Bumble because you wanted a tattoo. I told you I was still practicing, but you kept insisting that you would be my first real skin canvas.</p>
+          <p>Then July 11 happened. You came to my house, and somehow, instead of me tattooing you, we just drank, chilled, and talked about our lives.</p>
+          <p class="highlight">Funny how I thought I was meeting someone for a tattoo… when I was actually meeting someone who would rearrange my world.</p>
+        </div>
+
+        <div class="photo-card reveal">
+          <div class="photo-frame">
+            <img src="assets/first-photo.jpg" alt="A photo of us together">
+          </div>
+          <div class="photo-caption">
+            <span>FIRST PHOTO</span>
+            <strong>Somehow, this became us.</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="timeline section">
+      <div class="section-label reveal">02 / OUR LITTLE TIMELINE</div>
+      <div class="timeline-list">
+        <article class="timeline-item reveal">
+          <div class="timeline-date">JUL 11</div>
+          <div>
+            <h3>The day we met</h3>
+            <p>A tattoo request turned into drinks, stories, and a night I didn't know I'd remember this much.</p>
+          </div>
+        </article>
+        <article class="timeline-item reveal">
+          <div class="timeline-date">JUL 17</div>
+          <div>
+            <h3>The day we became us</h3>
+            <p>One week after that first meeting, we officially started this little story.</p>
+          </div>
+        </article>
+        <article class="timeline-item reveal">
+          <div class="timeline-date">NOW</div>
+          <div>
+            <h3>One month</h3>
+            <p>Not a lifetime yet. Just the first chapter of something I genuinely want to build.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="why section">
+      <div class="section-label reveal">03 / WHY YOU</div>
+      <div class="why-heading reveal">
+        <h2>You’re gorgeous.<br><span>But that's only the beginning.</span></h2>
+      </div>
+      <div class="cards">
+        <article class="love-card reveal">
+          <div class="card-number">01</div>
+          <h3>Soft & strong</h3>
+          <p>You have this softness that makes me feel comfortable, but there's also a strength in you that I admire.</p>
+        </article>
+        <article class="love-card reveal">
+          <div class="card-number">02</div>
+          <h3>You care</h3>
+          <p>You check on me, reassure me, make time for me, and somehow make even ordinary moments feel special.</p>
+        </article>
+        <article class="love-card reveal">
+          <div class="card-number">03</div>
+          <h3>You feel genuine</h3>
+          <p>There's something about the way you are with me that feels real. No performance. Just you.</p>
+        </article>
+        <article class="love-card reveal">
+          <div class="card-number">04</div>
+          <h3>My possible pahinga</h3>
+          <p>It's still early, but I can already feel it: maybe someday, after everything, you'll be the person I want to come home to.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="terminal-section section">
+      <div class="section-label reveal">04 / A LITTLE IT THING</div>
+      <div class="terminal reveal">
+        <div class="terminal-top">
+          <div class="traffic"><i></i><i></i><i></i></div>
+          <span>relationship.log</span>
+        </div>
+        <div class="terminal-body">
+          <p><span class="prompt">$</span> relationship --status</p>
+          <p class="terminal-muted">checking current state...</p>
+          <p><span class="key">STATUS</span> <span class="success">ACTIVE ❤️</span></p>
+          <p><span class="key">VERSION</span> 1.0</p>
+          <p><span class="key">UPTIME</span> 1 month</p>
+          <br>
+          <p><span class="key">FEATURES</span></p>
+          <p class="success">✓ care</p>
+          <p class="success">✓ patience</p>
+          <p class="success">✓ reassurance</p>
+          <p class="success">✓ random conversations</p>
+          <p class="success">✓ food made with love</p>
+          <p class="success">✓ first “I love you”</p>
+          <br>
+          <p><span class="key">KNOWN BUGS</span></p>
+          <p class="warning">⚠ missing you too much</p>
+          <p class="warning">⚠ wanting more time with you</p>
+          <p class="warning">⚠ still learning how to be better</p>
+          <br>
+          <p><span class="key">NEXT RELEASE</span></p>
+          <p>more dates / more memories / more growth</p>
+          <p class="cursor-line"><span class="prompt">$</span> git push origin <span class="success">us</span><span class="cursor"></span></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="promise section">
+      <div class="promise-card reveal">
+        <div class="section-label">05 / WHAT I WANT TO BUILD</div>
+        <h2>Something real.</h2>
+        <p>I don't want us to rush into a perfect story. I want us to build a real one.</p>
+        <p>A relationship where we keep choosing each other, where we compromise when things get hard, where we grow individually and together, and where our goals eventually lead us toward the same place.</p>
+        <p class="big-line">A relationship with the same goal as building a family.</p>
+        <p>And for my part, I want to be consistent. I want to keep working on myself, keep becoming better, and keep showing you through my actions that what we have matters to me.</p>
+      </div>
+    </section>
+
+    <section class="letter section">
+      <div class="letter-card reveal">
+        <div class="section-label">06 / FOR YOU</div>
+        <h2>Babe,</h2>
+        <div class="letter-body">
+          <p>Thank you for coming into my life.</p>
+          <p>One month might not sound like a long time, but somehow, you've already become someone whose happiness affects mine. When you're sad, I feel sad too. And when you're okay, somehow, my world feels a little lighter.</p>
+          <p>Thank you for being patient with me, especially while I'm still figuring things out financially and still working on myself. I know I have a lot to improve, but I want you to know that I'm trying every day to become a better version of myself.</p>
+          <p>I appreciate the way you care for me, the way you make time and effort, the way you reassure me, and even the food you cook for me. I notice those little things. I really do.</p>
+          <p>I also love how genuine you are with me. I want to protect that genuineness between us. I want us to be honest, patient, willing to compromise, and willing to grow together.</p>
+          <p>Maybe the funniest part is that we started because you asked me about a tattoo. I never actually tattooed you.</p>
+          <p class="highlight">But somehow, you still left a mark on me.</p>
+          <p>And if there's one thing I want you to remember from this little website, it's simply this:</p>
+          <p class="big-line">Thank you for coming to my life.</p>
+          <p>I don't know everything the future will bring, but I know I want to keep building something real with you, one day and one memory at a time.</p>
+          <p>Happy first monthsary, Babe.</p>
+          <p class="signature">— Your englishero ❤️</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="final section">
+      <div class="final-inner reveal">
+        <div class="mini-heart">♥</div>
+        <h2>One month down.</h2>
+        <p>Hopefully, a lifetime of updates to go.</p>
+        <div class="final-date">11.07.26 → 17.07.26 → ∞</div>
+        <button class="song-button" id="songButton">♫ &nbsp; Play our song</button>
+        <a class="song-link" href="https://www.youtube.com/watch?v=mZOf5_rIfK4" target="_blank" rel="noopener">Rearrange My World — Daniel Caesar & Rex Orange County ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    Made with love, code, and a questionable amount of CSS. ❤️
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
